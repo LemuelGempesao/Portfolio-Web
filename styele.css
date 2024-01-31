@@ -20,7 +20,7 @@ body{
     flex-direction: column; */
    
     background:linear-gradient(to top, rgb(90, 201, 201),rgb(0, 153, 145));
-    color: azure;
+    color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -73,12 +73,14 @@ body{
     font-size: 15px;
     color: white;
     text-transform: uppercase;
-    font-family:cursive;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
 }
 
 .menu li a:hover{
     text-shadow: 0 0 20px white;
     text-decoration:underline;
+    
 
 }
 
@@ -284,7 +286,6 @@ body{
         font-size: 15px;
         color: white;
         text-transform: uppercase;
-        font-family: cursive;
         display: block;
         width: 100%;
     }
