@@ -74,7 +74,7 @@ body{
     font-size: 15px;
     color: white;
     text-transform: uppercase;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:monospace;
     font-weight: bolder;
 }
 
@@ -114,10 +114,8 @@ body{
     overflow-x: hidden;
     min-width: 100vw;
     margin: 0 auto;
-    /* background-color: black; */
     background-color:black;
     display: flex;
-   /* position: relative; */
     transition: .3s ease-out;
     width:98vw;
     height:100vh;
@@ -222,7 +220,7 @@ body{
     text-align: center;
     color:white;
     text-transform: uppercase;
-    font-family: monospace;
+    font-family: monospace, 'Times New Roman', Times, serif;
     font-weight: 900;
     font-size: 1.6rem;
 
@@ -314,6 +312,7 @@ body{
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
+        position: relative;
     }
 
     
