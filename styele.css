@@ -5,6 +5,7 @@
     list-style-type: none;
     text-decoration: none;
     box-sizing: border-box;
+    font-family: monospace;
    
 }
 
@@ -209,7 +210,7 @@ body{
 }
 
 .skills .container h1{
-    font-size: 3em;
+    font-size: 4em;
 }
 .skills .container .lang{
     padding-top: 60px;
@@ -221,11 +222,12 @@ body{
     text-align: center;
     color:white;
     text-transform: uppercase;
+    font-family: monospace;
+    font-weight: 900;
+    font-size: 1.6rem;
+
 }
-.skills div p{
-    font-size: 40px;
-    color:green;
-}
+
 
 @media screen and (max-width:613px){
     .menu{
