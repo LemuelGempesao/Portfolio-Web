@@ -24,9 +24,8 @@
             <ul class="menu">
                 <li><a href="#container">Home</a></li> 
                 <li><a href="#skills">Skills</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Feedback</a></li>
-                <li><a href="#">Contacts</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contacts">Contacts</a></li>
             </ul>
 
             <div class="burger" id="burger">
@@ -63,21 +62,32 @@
                     <li><i class="fa-brands fa-html5"  style="color: orangered;"></i> HTML</li>
                     <li><i class="fa-brands fa-css3-alt"  style="color: blue;"></i> CSS</li>
                     <li><i class="fa-brands fa-js"style="color: yellow;"></i> Javascript</li>
+                    <li><i class="fa-brands fa-python fa-flip-vertical" style="color: #74C0FC;"></i> React</li>
                     <li><i class="fa-brands fa-python fa-flip-vertical" style="color: #74C0FC;"></i> Python</li>
                 </ul>
             </div>
         </div>
     </section>
-    <section class ="projects">
+    <section class ="projects" id="projects">
         <h1>
-           
+           Projects
         </h1>
+
+        <div class="projContainer">
+            To be attached soon
+        </div>
     </section>
 
 
-
-
-    
+    <section id="contacts" class="contacts">
+        <h1>Contact me<span>📲</span></h1>
+        <form action="#" class="fcontacts">
+            <input type="email" id="email" name="email" placeholder="Enter Email"/>
+            <input type="password" id="password" placeholder="Enter password" required/>
+            <textarea id="tarea" name="tarea" cols="40" rows="5" placeholder="Whats on Your mind..."></textarea>
+            <input type="submit" id="subBtn" value="Submit"/>
+        </form>
+    </section>  
     <script src="main.js"></script>
 </body>
 </html>
